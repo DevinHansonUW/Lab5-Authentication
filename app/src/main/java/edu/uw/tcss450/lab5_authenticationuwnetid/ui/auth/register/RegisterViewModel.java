@@ -42,7 +42,7 @@ public class RegisterViewModel extends AndroidViewModel {
                         final String last,
                         final String email,
                         final String password) {
-        String url = getApplication().getResources().getString(R.string.base_url) +
+        String url = getApplication().getResources().getString(R.string.base_url_auth) +
                 "auth";
 
         JSONObject body = new JSONObject();

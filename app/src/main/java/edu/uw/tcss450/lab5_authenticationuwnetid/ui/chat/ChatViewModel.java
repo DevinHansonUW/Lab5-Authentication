@@ -88,7 +88,7 @@ public class ChatViewModel extends AndroidViewModel {
      * @param jwt the users signed JWT
      */
     public void getFirstMessages(final int chatId, final String jwt) {
-        String url = getApplication().getResources().getString(R.string.base_url) +
+        String url = getApplication().getResources().getString(R.string.base_url_service) +
                 "messages/" + chatId;
 
         Request request = new JsonObjectRequest(
@@ -131,7 +131,7 @@ public class ChatViewModel extends AndroidViewModel {
      * @param jwt the users signed JWT
      */
     public void getNextMessages(final int chatId, final String jwt) {
-        String url = getApplication().getResources().getString(R.string.base_url) +
+        String url = getApplication().getResources().getString(R.string.base_url_service) +
                 "messages/" +
                 chatId +
                 "/" +
