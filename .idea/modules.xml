@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab_5_-_Authentication.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab_5_-_Authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.unitTest.iml" />
     </modules>
   </component>
 </project>
