@@ -20,8 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
-        <activity android:name="edu.uw.tcss450.lab5_authenticationcfb3.MainActivity" />
-        <activity android:name="edu.uw.tcss450.lab5_authenticationcfb3.AuthActivity"
+        <activity android:name="edu.uw.tcss450.lab5_authentication.MainActivity" />
+        <activity android:name="edu.uw.tcss450.lab5_authentication.AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +34,7 @@
 
         <!-- Pushy Notification Receiver -->
         <!-- Incoming push notifications will invoke the following BroadcastReceiver -->
-        <receiver android:name="edu.uw.tcss450.lab5_authenticationcfb3.services.PushReceiver" android:exported="false">
+        <receiver android:name="edu.uw.tcss450.lab5_authentication.services.PushReceiver" android:exported="false">
             <intent-filter>
                 <!-- Do not modify this -->
                 <action android:name="pushy.me" />
