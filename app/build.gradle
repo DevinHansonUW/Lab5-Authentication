@@ -7,7 +7,7 @@ android {
         viewBinding true
     }
     defaultConfig {
-        applicationId "edu.uw.tcss450.lab5_authentication"
+        applicationId "edu.uw.tcss450.lab5_authenticationcfb3"
         minSdkVersion 24
         targetSdkVersion 33
         versionCode 1
@@ -22,11 +22,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions "appType"
+    productFlavors {
+        local {
+            dimension "appType"
+            applicationIdSuffix ".local"
+        }
+        remote {
+            dimension "appType"
+            applicationIdSuffix ".remote"
+        }
+    }
     compileOptions {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
-    namespace 'edu.uw.tcss450.lab5_authentication'
+    namespace 'edu.uw.tcss450.lab5_authenticationcfb3'
 
 }
 
