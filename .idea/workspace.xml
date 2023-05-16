@@ -9,42 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61de67c-750e-4ae1-a7e7-f0acd42c02aa" name="Default Changelist" comment="Updated for Spring 2023 1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.androidTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Lab_5_-_Authentication.app.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/edu/uw/tcss450/lab5_authentication/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/edu/uw/tcss450/lab5_authenticationdevingh2/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/AuthActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/AuthActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/io/RequestQueueSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/io/RequestQueueSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/model/NewMessageCountViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/model/NewMessageCountViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/model/PushyTokenViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/model/PushyTokenViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/model/UserInfoViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/model/UserInfoViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/services/PushReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/services/PushReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/auth/register/RegisterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/auth/register/RegisterFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/auth/register/RegisterViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/auth/register/RegisterViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/auth/signin/SignInFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/auth/signin/SignInFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/auth/signin/SignInViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/auth/signin/SignInViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/chat/ChatFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/chat/ChatFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/chat/ChatMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/chat/ChatMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/chat/ChatRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/chat/ChatRecyclerViewAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/chat/ChatSendViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/chat/ChatSendViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/ui/chat/ChatViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/ui/chat/ChatViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authentication/utils/PasswordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uw/tcss450/lab5_authenticationdevingh2/utils/PasswordValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/auth_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/auth_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/main_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/remote/res/values/url.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/remote/res/values/url.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/edu/uw/tcss450/lab5_authentication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/edu/uw/tcss450/lab5_authenticationdevingh2/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-    </list>
+    <list default="true" id="b61de67c-750e-4ae1-a7e7-f0acd42c02aa" name="Default Changelist" comment="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +161,49 @@
       <option name="project" value="LOCAL" />
       <updated>1683567622596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503.">
+      <created>1684214622115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684214622115</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503.">
+      <created>1684214662279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684214662279</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503.">
+      <created>1684214703737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684214703737</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503.">
+      <created>1684214789240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684214789240</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503.">
+      <created>1684214854807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684214854807</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503.">
+      <created>1684214924482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684214924482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +222,7 @@
     <MESSAGE value="Updated for Autumn 2022" />
     <MESSAGE value="Updated for Spring 2023" />
     <MESSAGE value="Updated for Spring 2023 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated for Spring 2023 1.1" />
+    <MESSAGE value="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented up to step 83 in lab 5. Error when deploying Heroku app Code: 503." />
   </component>
 </project>
