@@ -7,7 +7,7 @@ android {
         viewBinding true
     }
     defaultConfig {
-        applicationId "edu.uw.tcss450.lab5_authentication"
+        applicationId "edu.uw.tcss450.lab5_authenticationdevingh2"
         minSdkVersion 24
         targetSdkVersion 33
         versionCode 1
@@ -37,7 +37,7 @@ android {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
-    namespace 'edu.uw.tcss450.lab5_authentication'
+    namespace 'edu.uw.tcss450.lab5_authenticationdevingh2'
 
 }
 
