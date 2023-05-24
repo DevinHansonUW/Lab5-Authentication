@@ -26,6 +26,8 @@ public class ChatFragment extends Fragment {
     private ChatViewModel mChatModel;
     private UserInfoViewModel mUserModel;
 
+    private ChatSendViewModel mSendModel;
+
     public ChatFragment() {
         // Required empty public constructor
     }
@@ -37,6 +39,7 @@ public class ChatFragment extends Fragment {
         mUserModel = provider.get(UserInfoViewModel.class);
         mChatModel = provider.get(ChatViewModel.class);
         mChatModel.getFirstMessages(HARD_CODED_CHAT_ID, mUserModel.getmJwt());
+        mSendModel = provider.get(ChatSendViewModel.class);
     }
 
     @Override
@@ -82,5 +85,16 @@ public class ChatFragment extends Fragment {
                     rv.scrollToPosition(rv.getAdapter().getItemCount() - 1);
                     binding.swipeContainer.setRefreshing(false);
                 });
+
+        //Send button was clicked. Send the message via the SendViewModel
+        binding.buttonSend.setOnClickListener(button -> {
+            mSendModel.sendMessage(HARD_CODED_CHAT_ID,
+                    mUserModel.getmJwt(),
+                    binding.editMessage.getText().toString());
+        });
+
+        //when we get the response back from the server, clear the edittext
+        mSendModel.addResponseObserver(getViewLifecycleOwner(), response ->
+                binding.editMessage.setText(""));
     }
 }
